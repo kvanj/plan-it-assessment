@@ -1,0 +1,4 @@
+{
+    "cypressHelper.typeDefinitionFile": "cypress/support/commands.js",
+	"cypressHelper.customCommandsFolder": "cypress/support/"
+}
