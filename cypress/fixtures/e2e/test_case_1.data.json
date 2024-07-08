@@ -1,0 +1,15 @@
+{
+	"MANDATORY_ERROR_MESSAGES": {
+		"ERROR_ALERT": "We welcome your feedback - but we won't get it unless you complete the form correctly.",
+		"ERROR_FORENAME": "Forename is required",
+		"ERROR_EMAIL": "Email is required",
+		"ERROR_MESSAGE": "Message is required"
+	},
+    "CONTACT_INFORMATION": {
+        "INPUT_FORENAME": "Neil John",
+        "INPUT_SURNAME": "Capule",
+        "INPUT_EMAIL": "qaautomation@planit.net.au",
+        "INPUT_TEL": "0211112345",
+        "TEXTAREA_MESSAGE": "Contact Test 1 Comment"
+    }
+}
