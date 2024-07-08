@@ -2,8 +2,8 @@
 Planit Technical Assessment – Automation
 
 # How to Run?
-In terminal, run - `npm install` first
-Next, execute `npm run cypress:run:all`
+1. In terminal, run - `npm install` first
+2. Next, execute `npm run cypress:run:all`
 
 ====================================================================================================
 
@@ -23,6 +23,8 @@ Next, execute `npm run cypress:run:all`
 ====================================================================================================
 
 # CI/CD Implementation Sample - Jenkins Pipeline Stage
+````
+```
 stage ("Cypress Automation Tests") {
     agent {
         label "cypress-agent"
@@ -71,3 +73,5 @@ stage ("Cypress Automation Tests") {
         }
     }
 }
+```
+````
