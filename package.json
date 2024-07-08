@@ -1,0 +1,15 @@
+{
+  "name": "plan-it-assessment",
+  "version": "1.0.0",
+  "description": "Planit Technical Assessment – Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Neil John Capule",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  }
+}
