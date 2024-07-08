@@ -1,0 +1,10 @@
+# Library
+/node_modules
+
+# Cypress file
+cypress/videos
+cypress/screenshots
+cypress/**/*.mp4
+cypress/**/*.png
+cypress/downloads
+cypress/reports

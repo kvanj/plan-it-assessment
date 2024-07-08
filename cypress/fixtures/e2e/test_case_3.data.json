@@ -1,0 +1,29 @@
+{
+    "CONTACT_INFORMATION": {
+        "INPUT_FORENAME": "Neil John",
+        "INPUT_SURNAME": "Capule",
+        "INPUT_EMAIL": "qaautomation@planit.net.au",
+        "INPUT_TEL": "0211112345",
+        "TEXTAREA_MESSAGE": "Contact Test 2 Comment"
+    },
+    "PRODUCTS": {
+        "STUFFED_FROG": {
+            "ITEM": "Stuffed Frog",
+            "COUNT": 2,
+            "PRICE": 10.99,
+            "SUBTOTAL": 21.98
+        },
+        "FLUFFY_BUNNY": {
+            "ITEM": "Fluffy Bunny",
+            "COUNT": 5,
+            "PRICE": 9.99,
+            "SUBTOTAL": 49.95
+        },
+        "VALENTINE_BEAR": {
+            "ITEM": "Valentine Bear",
+            "COUNT": 3,
+            "PRICE": 14.99,
+            "SUBTOTAL": 44.97
+        }
+    }
+}
