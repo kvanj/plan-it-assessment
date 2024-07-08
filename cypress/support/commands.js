@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+// Get data fixtures path
+Cypress.Commands.add('getDataFixture', () => {
+    const script = Cypress.spec.relative.replaceAll('\\', '/');
+    cy.task('log', `Script File Path: ${script.substring(0, script.lastIndexOf('.cy.js'))}`);
+    const file = `${script.substring(0, script.lastIndexOf('.cy.js')).split('/').slice(1).join('/')}.data`;
+
+    cy.task('log', `Fixture: ${file}`);
+    return cy.fixture(file).as('data');
+});
